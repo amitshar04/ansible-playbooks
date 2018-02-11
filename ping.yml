@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: dealer_tomcat
   gather_facts: false
   tasks:
     - ping:
